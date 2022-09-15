@@ -3,10 +3,15 @@
 #include <stdio.h>
 
 /*
- * main - Prints the last digit of the variable n.
+ * main - Entry point
  *
- * Return: 0
+ * Description: 'the program will state whether the
+ * last digit of the variable n is greater than five,
+ * is zero or is less than six and not zero.'
+ *
+ * Return: Always 0 (Success)
  */
+
 
 int main(void)
 
@@ -24,15 +29,15 @@ int main(void)
 
 if (l > 5)
 {
-	printf("Last digit of %d is %d and is greater than 5.\n", n, l)
+	printf("Last digit of %d is %d and is greater than 5.\n", n, l);
 }
 else if (l == 0)
 {
-	printf("Last digit of %d is %d and is 0.\n", n, l)
+	printf("Last digit of %d is %d and is 0.\n", n, l);
 }
 else
 {
-	printf("Last digit of %d is %d and is less than 6 and not 0.\n", n, l)
+	printf("Last digit of %d is %d and is less than 6 and not 0.\n", n, l);
 }
 
 
