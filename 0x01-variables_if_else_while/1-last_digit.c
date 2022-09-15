@@ -5,15 +5,13 @@
 /*
  * main - Entry point
  *
- * Description: 'the program will state whether the
- * last digit of the variable n is greater than five,
- * is zero or is less than six and not zero.'
+ * Description: 'the program prints the last digit of the variable n'
  *
  * Return: Always 0 (Success)
  */
 
 
-int main(void)
+int main
 
 {
 
