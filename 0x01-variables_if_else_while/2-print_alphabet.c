@@ -5,7 +5,7 @@
  *
  * Description: prints alphabet in lowercase, followed by a new line
  *
- * Return: 0
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -14,9 +14,9 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		putchar(ch)
+		putchar(ch);
 	}
-	putchar('\n')
+	putchar('\n');
 
 		return (0);
 }
