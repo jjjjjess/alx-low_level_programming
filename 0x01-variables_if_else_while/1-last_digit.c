@@ -2,16 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
- * Description: 'the program prints the last digit of the variable n'
+ * Description: The program prints the last digit of the variable n
  *
  * Return: Always 0 (Success)
  */
 
 
-int main
+int main(void)
 
 {
 
