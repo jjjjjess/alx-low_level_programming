@@ -1,9 +1,11 @@
-#incldue "main.h"
+#include "main.h"
 
 /**
  * _islower - entry point
  *
  * Description: 'checks for lowercase character'
+ *
+ * @c: single letter input
  *
  * Return: Always success
  */
