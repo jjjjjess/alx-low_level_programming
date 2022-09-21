@@ -10,5 +10,7 @@
 
 int _abs(int);
 {
+
 	return (ab * ((ab > 0) - (ab < 0)));
+
 }
