@@ -3,14 +3,12 @@
 /**
  * _abs - computes the absolute value of an integer
  *
- * @int: input letter
+ * @ab: input letter
  *
  * Return: Always success
  */
 
-int _abs(int);
+int _abs(int ab);
 {
-
 	return (ab * ((ab > 0) - (ab < 0)));
-
 }
