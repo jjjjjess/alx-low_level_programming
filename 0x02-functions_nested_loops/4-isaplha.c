@@ -3,8 +3,6 @@
 /**
  * _isalpha - entry point
  *
- * Description: 'checks for alphabetic character'
- *
  * @c: input letter
  *
  * Return: Always success
