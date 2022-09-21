@@ -8,7 +8,7 @@
  * Return: Always success
  */
 
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int p;
 
