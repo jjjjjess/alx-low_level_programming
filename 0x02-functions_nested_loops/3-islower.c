@@ -1,7 +1,7 @@
 #incldue "main.h"
 
 /**
- * int _islower - entry point
+ * _islower - entry point
  *
  * Description: 'checks for lowercase character'
  *
