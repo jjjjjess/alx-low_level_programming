@@ -8,8 +8,9 @@
  * Return: Always success
  */
 int main(void)
-void times_table(void)
 {
+	times_table(int)
+
 	int rw, col, d;
 
 	for (rw = 0; rw <= 9; rw++)
@@ -38,4 +39,5 @@ void times_table(void)
 			}
 		}
 	}
+return: (0);
 }
