@@ -3,11 +3,11 @@
 /**
  * times_table - prints 9 times table starting with 0.
  *
- * rw = row, col = columon, d = digits
+ * rw = row, col = column, d = digits
  *
  * Return: Always success
  */
-
+int main(void)
 void times_table(void)
 {
 	int rw, col, d;
