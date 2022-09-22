@@ -7,10 +7,9 @@
  *
  * Return: Always success
  */
-int main(void)
-{
-	times_table(int)
 
+void times_table(void)
+{
 	int rw, col, d;
 
 	for (rw = 0; rw <= 9; rw++)
@@ -39,5 +38,4 @@ int main(void)
 			}
 		}
 	}
-return: (0);
 }
