@@ -1,44 +1,28 @@
 #include "main.h"
 
 /**
- * print_number - Print an integer
- * @n: The integer to print
+ * print_number - print an integer (with no trailing newline)
+ * @n: integer to print
  * Return: void
  */
 
 void print_number(int n)
 {
-	static unsigned int divider, num;
-	int digit;
+	unsigned int m;
 
-	if (n < 0)
+	if (n >= 0)
+	{
+		if (n >= 10)
+			print_number(n / 10);
+		_putchar('0' + n % 10);
+	}
+
+	else
 	{
 		_putchar('-');
-		num = n * (-1);
-	}
-
-	else
-	{
-		num = n;
-	}
-
-	if (num >= 10)
-	{
-		divider = 10;
-		while (divider <= num / 10)
-		{
-			divider *= 10;
-		}
-	}
-	else
-	{
-		divider = 1;
-	}
-	while (divider >= 1)
-	{
-		digit = num / divider;
-		num = num % divider;
-		_putchar(digit + '0');
-		divider /= 10;
+		m = -1 * n;
+		if (m >= 10)
+			print_number(m / 10);
+		_putchar('0' + m % 10);
 	}
 }
